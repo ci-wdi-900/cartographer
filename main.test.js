@@ -96,7 +96,7 @@ describe('makeQuestion', () => {
 })
 
 describe('questionings', () => {
-  it(`adds an exclamation point to the end of each string`, () => {
+  it(`adds a question mark to the end of each string`, () => {
     expect(questionings(['hello', 'there', 'you absolute fiend'])).toEqual(['hello?', 'there?', 'you absolute fiend?']);
     expect(questionings(['hey', 'you'])).toEqual(['hey?', 'you?']);
   })
